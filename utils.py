@@ -1,5 +1,5 @@
 def get_population(country):
-    print(country)
+    #print(country)
 
     country_dict = {
         "1970" : int(country['1970 Population']),          #pop.append(int(country['1970 Population']))

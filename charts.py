@@ -1,18 +1,18 @@
 import matplotlib.pyplot as plt
 
-def generate_bar_chart(labels, values):
+def generate_bar_chart(name, labels, values):
     fig, ax = plt.subplots()   #fig: figura ax: coordenadas en las que vamos a graficar
     ax.bar(labels, values)    #genero grafica de barras
     #plt.show()
-    plt.savefig("bar.png")
+    plt.savefig(f"./images/{name}.png")
     plt.close()
 
-def generate_pie_chart(labels, values):
+def generate_pie_chart(name,labels, values):
     fig, ax = plt.subplots()   #fig: figura ax: coordenadas en las que vamos a graficar
     ax.pie(values, labels=labels)    #genero grafica de pie
     ax.axis("equal")
     #plt.show()
-    plt.savefig("pie.png")
+    plt.savefig(f"./images/{name}.png")
     plt.close()
 
 if __name__ == "__main__":
