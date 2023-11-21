@@ -4,7 +4,7 @@ import charts
 
 
 def run():
-    data = read_csv.read_csv("\\Users\\ignac\\OneDrive\\Documents\\Python\\app\\data.csv")
+    data = read_csv.read_csv("/home/ignaciomcarro/Proyectos-python/Leer-csv/data.csv")
 
     """
     option = input("Desea filtrar por ranking (Rank) o continente (Continent): ")
