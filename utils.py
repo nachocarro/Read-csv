@@ -13,8 +13,8 @@ def get_population(country):
 
     years = country_dict.keys()
     pop = country_dict.values()
-    print(years)
-    print(pop)
+    #print(years)
+    #print(pop)
     return years, pop
 
 def population_by_country(data, country):
@@ -27,7 +27,7 @@ def world_population(data):
     for country in data:
         countries.append(country["Country/Territory"])
         world_pop.append(country["World Population Percentage"])
-    print(countries)
-    print(world_pop)
+    #print(countries)
+    #print(world_pop)
     return countries, world_pop
 
